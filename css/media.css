@@ -1,0 +1,690 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.right-right {
+	    position: absolute;
+	    left: 0;
+	}
+
+	#logo p {
+		text-align: center;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.carousel-indicators {
+		bottom: -15px;
+	}
+
+	#logo p {
+		padding-left: 0;
+	}
+	
+	.navbar-nav > li > .dropdown-menu {
+	  	margin-top: -1px;
+	  	border-top-left-radius: 0;
+	  	border-top-right-radius: 4px;
+	  	z-index: 1;
+	}
+
+	#navbar ul li {
+		width: 29%;
+	    font-size: 16px;
+	}
+
+	#navbar {
+	    width: 58%;
+	}
+
+	.nav-justified li {
+		display: table-cell;
+    	width: 1%;
+	}
+
+	.nav-justified {
+	    width: 100%;
+	}
+
+	#logo-img {
+		background: url(../images/ss-logo.svg) center center no-repeat;
+		width: 119px;
+    	height: 65px;
+    	background-size: cover;
+	}
+
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus {
+		border: 1px solid #3a9bd9;
+		color: #3a9bd9;
+		border-bottom: none;
+	}
+
+	.dropdown-menu {
+		min-width: 170px;
+		padding-left: 20px;
+		border: 1px solid #3a9bd9;
+		border-radius: 0 4px 4px 4px ;
+	}
+
+	.support-menu {
+		padding-left: 0;
+		min-width: 170px !important;
+	}
+
+	.products-menu {
+		min-width: 157px;
+	}
+
+	.dropdown-menu li a {
+		padding-left: 20px;
+	}
+
+	.dropdown-menu ul {
+		padding-left: 30px;
+	}
+
+	.nav li a {
+		position: relative;
+	}
+
+	.navbar-nav {
+    	padding-left: 40px;
+	}
+
+	.navbar-header {
+		max-width: 750px;
+	}
+
+
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus {
+		min-width: 125px;
+		z-index: 5;
+	}
+
+	.dropdown ul a {
+		padding-left: 0;
+	} 
+
+	.dropdown {
+		z-index: 6;
+	}
+
+	.container1 {
+		max-width: 750px;
+	}
+
+	.cloud {
+		background: url(../images/cloud-md.png) center center no-repeat;
+		z-index: 3;
+		width: 749px;
+    	margin: 0 auto;
+		position: relative;
+	}
+
+	#rotating-arrows {
+	    width: 241px;
+	    left: 67px;
+		top: 128px;
+	}
+
+	.first-cloud .cloud-text {
+	    width: 70%;
+	    left: 27px;
+	    top: 121px;
+	}
+
+	.second-cloud .cloud-text {
+	    width: 88%;
+	    top: 138px;
+	    left: 100px;
+	}
+
+	.second-cloud .cloud-text h1 {
+    	font-size: 35px;
+	}
+
+	.cloud-text {
+	    left: 38px;
+    	top: 119px;
+	}
+
+	.cloud-text ul {
+		margin-bottom: 20px;
+	}
+
+	.cloud-text h1 {
+		font-size: 25px;
+	}
+
+	.cloud-text p {
+		font-size: 18px;
+	}
+
+	.cloud-text ul li {
+		font-size: 14px;
+	}
+
+	#container2 {
+		width: 500px;
+	}
+
+	#img-logo {
+		left: 22.4%;
+	}
+
+	#ft-container {
+		max-width: 720px;
+	}
+
+	.text {
+    	/* float: right; */
+    	width: 482.66px;
+    	margin-top: 27px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.navbar .navbar-default .navbar-static-top {
+		display: block !important;
+	}
+
+	.second-cloud .cloud-text {
+		margin: 52px auto;
+	}
+
+	.second-cloud .cloud-text h1 {
+		letter-spacing: 1px;
+	}
+
+	.first-cloud .cloud-text {
+	   width: 70%;
+       margin: 52px auto;
+	}
+
+	.first-cloud .cloud-text h1, .second-cloud .cloud-text h1 {
+		font-size: 19px;
+		margin-bottom: 12px;
+	}
+
+	.carousel-indicators .active {
+	    border: 2px solid #fff;
+	    width: 11px;
+	    height: 11px;
+	}
+
+	.carousel-indicators li {
+	    height: 10px;
+	    width: 10px;
+	}
+
+	.carousel-indicators {
+		bottom: -40px;
+	}
+
+	#logo p {
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.social {
+		min-width: 150px;
+	}
+
+	 .hidden {
+		display: none;
+	}
+
+
+	.no-padding {
+		padding-left: 0 !important;
+		padding-top: 0 !important;
+		padding-bottom: 14px !important;
+	}
+
+	.menu-list a {
+		color: #fff;
+	    padding: 1rem;
+	    display: block;
+	}
+	.menu-list a:hover {
+		text-decoration: underline;
+	}
+
+	.menu-list .list-cloud, 
+	.menu-list .circle-arrow,
+	.menu-list .speech-bubble,
+	.menu-list .cogs {
+		background: url(../images/ss-mobile-menu-icons-2.png) no-repeat;
+	    background-position: -30px -0px;
+	    width: 28px;
+	    height: 16px;
+	    display: inline-block;
+	    overflow: hidden;
+	    text-indent: -9999px;
+	    text-align: left;
+	    float: left;
+	    margin-right: 16px;
+	}
+
+	.menu-list .list-cloud {
+		margin-top: 2px;
+	}
+
+	.menu-list .cogs {
+		width: 28px;
+		height: 28px;
+		background-position: -30px -17px;
+	}
+
+	.menu-list .speech-bubble {
+		width: 28px;
+		height: 26px;
+	    background-position: -30px -46px;
+	}
+
+	.menu-list .circle-arrow {
+		width: 28px;
+	    height: 28px;
+        background-position: -1px 0;
+	}
+
+	.menu-list {
+		background: #3a9bd9;
+		overflow: hidden;
+		border-top: 1px solid #fff;
+		font-size: 18px;
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding-top: 10px;
+		padding-left: 7px;
+	}
+
+	.padding-top {
+		padding-top: 5px;
+	}
+
+	.menu-list li {
+		padding: 1rem;
+	}
+
+	.menu-list ul li ul li {
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	.menu-list ul {
+		padding-left: 0;
+	}
+
+	.menu-list ul li {
+		list-style-type: none;
+	}
+	.menu-list ul li a {
+		padding-left: 5rem;
+	}
+
+	.menu-list ul li ul li {
+		background: none;
+	}
+
+	/*.menu-list ul {
+		height: 0;
+	}*/
+
+	.products-list {
+		background-position: -30px -0px;
+	    width: 28px;
+		height: 16px;
+	}
+
+	.menu-burger {
+		font-size: 16px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-left: 16px;
+	    margin: 21px 0 0 16px;
+	    display: inline-block;
+	}
+
+	.menu-btn {
+		width: 36px;
+    	height: 36px;
+    	padding: 8px 5px ;
+    	border-radius: 6px;
+    	margin: 1rem 0 ;
+    	z-index: 0;
+    	background: #fff;
+    	float: left;
+	    margin: 14px 0 0 20px !important;
+	}
+
+	.menu-btn:hover {
+		background-color: #e6e6e6;
+    	border-color: #adadad;
+	}
+
+	.menu-btn:active {
+		background-color: #d4d4d4;
+	    border-color: #8c8c8c;
+	}
+
+	.menu-btn i:first-child {
+		margin-top: 0;
+	}
+
+	.icon-bar {
+		background-color: #3a9bd9;
+    	width: 100%;
+    	height: 4px;
+    	border-radius: 4px;
+    	display: block;
+    	margin-top: 4px;
+	}
+
+	nav .container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.burger-nav {
+		display: block;
+		width: 100%;
+		height: 68px;
+		background-color: #3a9bd9;
+	}
+
+	.container1 {
+		width: 100%;
+	}
+
+	.navbar {
+		position: static;
+	}
+
+	.navbar-header {
+		padding-left: 20px;
+		padding-right: 15px;
+	}
+
+
+	.cloud-text button {
+		font-size: 14px;
+	}
+
+	.cloud-text {
+    	width: 100%;
+    	margin: 57px auto;
+    	top: 38px;
+    	left: 41px;
+    	position: static;
+	}
+
+	.cloud-text h1 {
+    	font-size: 18px;
+    	margin-bottom: 26px;
+    	text-align: center;
+	}
+
+	#cloud {
+		top: 0;
+	}
+
+	#background {
+		height: 300px;
+		min-height: 300px;
+	    max-height: 768px;
+	}
+
+	.cloud {
+		background: url(../images/cloud-sm.png) center center no-repeat;
+		background-size: contain;
+		max-height: 160px;
+		width: 100%;
+		position: relative;
+		top: 57px;
+		margin: 0 auto;
+	    margin-bottom: 57px;
+	}
+
+	#icons {
+		margin-top: 4rem;
+		margin-bottom: 5rem;
+ 	}
+
+	.copyright-xs {
+    	background-color: #fff;
+    	padding: 3rem 0;
+    	width: 100%;
+    	position: absolute;
+    	margin-top: 0;
+	}
+
+	.text-right {
+    	text-align: right !important;
+	}
+
+	.col-xxs-6 {
+    	width: 50%;
+    	color: #1f44a5 !important;
+    	text-align: left ;
+    	float: left;
+    	padding: 0 3rem;
+    	font-size: 12px;
+    	font-weight: normal;
+	}
+
+	.col-xxs-6 a {
+		color: #3b9bd9;
+	}
+
+	.col-xxs-6 a:hover {
+		color: #2072a7 !important;
+	}
+
+	.left  {
+		float: none;
+		text-align: left;
+		position: absolute;
+		left: 8%;
+	}
+
+	.right-right {
+		position: absolute;
+    	left: 55%;
+	}
+
+	.right {
+    	float: none;
+    	text-align: right;
+    	list-style-type: none;
+	}
+
+	.support {
+		position: absolute;
+		right: 46%;
+		color: #fff;
+	}
+
+	.font-weight a:hover {
+		text-decoration: underline;
+		color: #fff;
+	}
+
+	.social-col {
+    	text-align: center;
+	}
+
+	.col-xxs-3 {
+    	width: 25%;
+    	float: left;
+	}
+
+	#footer-content {
+		padding: 2rem 0;
+		margin-top: 0;
+    	margin-bottom: 0;
+    	height: auto;
+	}
+
+	footer {
+	    background: url(../images/bg-footer-xs.jpg) center center no-repeat;
+	    background-size: cover;
+	    width: 100%;
+	}
+
+
+	#invisible {
+		display: none;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.img-col {
+		min-height: 75px;
+	}
+
+	.img-logo {
+		margin: 0 auto;
+	}
+	
+	.img-responsive {
+	    display: block;
+	    max-width: 100%;
+	    height: auto;
+	    margin: 0 auto;
+	}
+	.text {
+		width: 80%;
+		margin: 15px auto;
+	}
+
+	.text h1 {
+		font-size: 18px;
+	}
+
+	.text p {
+		font-size: 14px;
+	}
+
+	#skysilk-list ul li {
+		font-size: 14px;
+	}
+
+	#why-skysilk h1 {
+		font-size: 18px;
+	}
+	
+
+	button {
+		padding: 6px 9px;
+		font-size: 18px;
+	}
+
+	.cloudinabox-glow {
+		display: block;
+	    max-width: 100%;
+	    margin: 0 auto;
+	}
+
+	#text h1, button {
+		text-align: center;
+		display: block;
+		margin: 0 auto !important;
+	}
+
+	#text {
+		margin: 0 auto;
+		margin-top: 6rem;
+	}
+
+	#img-logo {
+		position: absolute;
+    	top: -30%;
+    	left: 27.4%;
+	}
+
+	#btn {
+		margin-top: 2rem !important;
+	}
+
+	.arrow-inner {
+		border-radius: 35px 35px 0 0;
+	    width: 70px;
+	    height: 35px;
+	    padding-top: 20px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.arrow-down {
+	 background: url(../images/arrow-down-xs.png) center center no-repeat;
+    width: 25px;
+    height: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#container2 {
+		width: 100%;
+	}
+
+	#text {
+		width: 302.99px;
+	}
+
+	#img-logo {
+    	left: 20%;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.left {
+	    float: none;
+	    text-align: left;
+	    position: absolute;
+	    left: 4%;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
