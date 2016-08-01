@@ -13,6 +13,7 @@ $(document).ready(function() {
 	    	$('.navbar').css("position", "fixed");
 		    $(window).on('scroll', onScroll);
 	    } else {
+	    	$('.navbar').fadeIn(300);
 		    $(window).off('scroll', onScroll);
 	    	$('.navbar').css("position", "static");
 	    }
@@ -35,8 +36,8 @@ $(document).ready(function() {
 
 	});
 
-	$('.arrow-left').click(function() {
-
+	$('.arrow-left').click(function(event) {
+		event.preventDefault();
 		var currentCloud = $('.active-cloud');
 		var prevCloud = currentCloud.prev();
 		var currentDot = $('.active');
@@ -55,8 +56,8 @@ $(document).ready(function() {
 		prevDot.addClass('active');
 	});
 
-	$('.arrow-right').click(function() {
-
+	$('.arrow-right').click(function(event) {
+		event.preventDefault();
 		var currentCloud = $('.active-cloud');
 		var nextCloud = currentCloud.next();
 		var currentDot = $('.active');
@@ -85,13 +86,10 @@ $(document).ready(function() {
 	});
 
 	$(window).on('scroll', function(){
-		// console.log('scroll is happening...', $(this).scrollTop());
 		if ($(this).scrollTop() > 200) {
             $('#scroll-top').fadeIn(300);
         } else {
             $('#scroll-top').fadeOut(300);
         };
 	});
-
-	// console.log('on document ready');
 });
