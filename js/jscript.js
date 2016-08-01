@@ -1,33 +1,34 @@
-$(document).ready (function() {
+$(document).ready(function() {
+	
 	$(".arrow-inner").click(function(){
 		$('html, body').animate({
                 scrollTop: $("#why-skysilk").offset().top
         }, 1000);
 	});
 
-	$(window).on('resize', function () {
+	$(window).on('resize', onResize);
 
-	    if ($(window).width() > 768) {
-	       
-		    $(window).scroll(function(){
-
-	       		if ($(window).scrollTop() < 200) {
-	            	$('.navbar').fadeIn(300);
-	        } else {
-
-	            $('.navbar').fadeOut(300);
-
-	        	}
-    	});
-
+	function onResize(){
+		if ($(window).width() > 768) {
+	    	$('.navbar').css("position", "fixed");
+		    $(window).on('scroll', onScroll);
 	    } else {
-	        
+		    $(window).off('scroll', onScroll);
 	    	$('.navbar').css("position", "static");
-
 	    }
+	};
 
-	});
+	function onScroll(){
+       	if ($(window).scrollTop() < 200) {
+       		console.log('scrollTop < 200');
+            $('.navbar').fadeIn(300);
+        } else {
+       		console.log('scrollTop > 200');
+            $('.navbar').fadeOut(300);
+        }
+	}
 
+	onResize();
 
 	$(".burger-nav").on("click", function() {
 		$(".menu-list").toggleClass("hidden");
@@ -83,10 +84,14 @@ $(document).ready (function() {
 
 	});
 
-	if ($(window).scrollTop() > 200) {
+	$(window).on('scroll', function(){
+		// console.log('scroll is happening...', $(this).scrollTop());
+		if ($(this).scrollTop() > 200) {
             $('#scroll-top').fadeIn(300);
         } else {
             $('#scroll-top').fadeOut(300);
         };
+	});
 
+	// console.log('on document ready');
 });
