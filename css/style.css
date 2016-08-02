@@ -46,6 +46,10 @@ a:hover {
 	
 }
 
+.container {
+    	width: 100%;
+	}
+
 .hide-nav {
 	visibility: hidden;
 }
@@ -94,7 +98,7 @@ a:hover {
 }
 
 #navbar {
-	width: 65%;
+	width: 64%;
 }
 
 .navbar {
@@ -102,6 +106,7 @@ a:hover {
 	position: fixed;
 	width: 100%;
 }
+
 
 #navbar ul li {
 	display: table-cell;
@@ -121,7 +126,7 @@ a:hover {
 }
 
 .nav-justified {
-	width: 100%;
+	width: 104%;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -131,7 +136,7 @@ a:hover {
 }
 
 .navbar-nav {
-	margin: 10px 0 0 29px;
+	margin: 10px 0 0 37px;
 }
 
 .nav li a:hover {
@@ -148,7 +153,7 @@ a:hover {
 }
 
 .dropdown-menu {
-	min-width: 150px;
+	min-width: 148px;
 }
 
 .dropdown-menu li a {
@@ -468,7 +473,7 @@ footer {
 }
 
 #ft-container {
-	margin: 0 auto;
+	margin: 0 40px;
 	max-width: 970px;
 	padding: 1rem 0;
 }
