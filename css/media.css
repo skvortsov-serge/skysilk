@@ -13,7 +13,7 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 991px) {
 
 	.carousel-indicators {
 		bottom: -15px;
@@ -92,7 +92,7 @@
 	}
 
 	.navbar-nav {
-    	padding-left: 40px;
+    	padding-left: 22px;
 	}
 
 	.navbar-header {
@@ -648,6 +648,15 @@
     	left: 20%;
 	}
 
+	.first-cloud .cloud-text {
+   		width: 70%;
+    	margin: 46px auto;
+	}
+
+	.first-cloud .cloud-text h1 {
+		font-size: 18px;
+	}
+	
 }
 
 /* Custom, iPhone Retina */
