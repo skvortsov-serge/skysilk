@@ -1,442 +1,564 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>SkySilk</title>
-		<meta  name="viewport" content="width=device-width">
-		<link rel="shortcut icon" href="images/sub-cloud.png" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-		<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-		<link href="css/style.css" type="text/css" rel="stylesheet" />
-		<link rel="stylesheet" href="css/media.css" />
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-static-top">
-	      <div class="container hidden-md hidden-lg hidden-sm color-blue">
-	      	<div class="row hidden-md hidden-lg hidden-sm">
-	      		<div class="col-xs-12">
-			      	<a href="#" class="burger-nav">
-				      	<button type="button" class="menu-btn">
-				      		<i class="icon-bar"></i>
-				      		<i class="icon-bar"></i>
-				      		<i class="icon-bar"></i>
-				      	</button><span class="menu-burger">Menu</span>
-				    </a>
-			    </div>
-			</div>
-		  </div>
-		  <div class="menu-list hidden hidden-md hidden-lg hidden-sm">
-		  	<ul>
-		  		<li>
-			  		<div>
-						<div><i class="list-cloud"></i></div>
-						<div class="padding-top no-padding">Products</div>
-			  		</div>
-					<ul>
-						<li><a href="#">cloud platform</a></li>
-						<li><a href="#">cloud-in-a-box</a></li>
-					</ul>
-		  		</li>
-		  		<li><a href="#" class="no-padding">
-						<div><i class="circle-arrow"></i></div>
-						<div class="padding-top">updates</div>
-					</a>
-		  		</li>
-		  		<li><a href="#" class="no-padding">
-						<div><i class="speech-bubble"></i></div>
-						<div class="padding-top">about us</div>
-					</a>
-		  		</li>
-		  		<li> 
-		  			<div><i class="cogs"></i></div>
-		  			<div class="padding-top no-padding">support</div>
-						<ul>
-							<li><a href="#">customer support</a></li>
-							<li><a href="#">contact us</a></li>
-						</ul>
-		  		</li>
-		  	</ul>
-		  </div>
 
-							<!-- ======	mobile menu ====== -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SkySilk</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/sub-cloud.png" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/> -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="scss/media.css" /> -->
+</head>
 
-	        <div class="navbar-header">
-	        	<div class="container">
-		        	<div class="row">
-		        		<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				          <a id="logo" href="#">
-				          	<div id="logo-img"></div>
-				          	<div><p>MANAGED CLOUD</p></div>
-				          </a>
-			         	</div>
-			          <!--<div class="logo">
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container hidden-md hidden-lg hidden-sm color-blue">
+            <div class="row hidden-md hidden-lg hidden-sm">
+                <div class="col-xs-12">
+                    <a href="#" class="burger-nav">
+                        <button type="button" class="menu-btn">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </button><span class="menu-burger">Menu</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-list hidden hidden-md hidden-lg hidden-sm">
+            <ul>
+                <li>
+                    <div>
+                        <div><i class="list-cloud"></i></div>
+                        <div class="padding-top no-padding">Products</div>
+                    </div>
+                    <ul>
+                        <li><a href="#">cloud platform</a></li>
+                        <li><a href="#">cloud-in-a-box</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="no-padding">
+                        <div><i class="circle-arrow"></i></div>
+                        <div class="padding-top">updates</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="no-padding">
+                        <div><i class="speech-bubble"></i></div>
+                        <div class="padding-top">about us</div>
+                    </a>
+                </li>
+                <li>
+                    <div><i class="cogs"></i></div>
+                    <div class="padding-top no-padding">support</div>
+                    <ul>
+                        <li><a href="#">customer support</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- ======	mobile menu ====== -->
+        <div class="navbar-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                        <a id="logo" href="#">
+                            <div id="logo-img"></div>
+                            <div>
+                                <p>MANAGED CLOUD</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--<div class="logo">
 				          <a class="navbar-brand" href="index.html"><img src="Images/SkySilk-logo.svg" /></a>
 			          </div>-->
-			          <div class="col-xs-6 hidden-md hidden-lg hidden-sm">
-				           	<div class="social hidden-md hidden-lg hidden-sm">
-							  	<div class="soc-icon">
-							  		<a  href="#"><svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 	width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-									<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
+                    <div class="col-xs-6 hidden-md hidden-lg hidden-sm">
+                        <div class="social hidden-md hidden-lg hidden-sm">
+                            <div class="soc-icon">
+                                <a href="#">
+                                    <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                        <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
 												c-0.9,0-1.5,0.4-1.5,1.2V43H63l-1.6,9h-7.8v26h-10V52h-6v-9h6v-4.8c0-6.1,5.4-11.2,11.5-11.2h7.5V37z">
-										</path>
-									</svg></a>
-								</div>
-								<div class="soc-icon">
-									<a  href="#"><svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 	width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-										<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="soc-icon">
+                                <a href="#">
+                                    <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                        <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
 													c-2,2.6-4,4.8-6.5,6.6c0,0.5,0,1.1,0,1.6c0,16.8-12.8,36.1-36.2,36.1c-7.2,0-13.9-2.1-19.5-5.7c1,0.1,2,0.2,3,0.2
 													c6,0,11.4-2,15.8-5.4c-5.5-0.1-10.2-3.8-11.9-8.8c0.8,0.1,1.6,0.2,2.4,0.2c1.2,0,2.1-0.2,3.2-0.4c-5.8-1.2-10.3-6.3-10.3-12.4
 													c0,0,0-0.1,0-0.2c2,0.9,3.8,1.5,5.9,1.6C27.1,45.2,25,41.4,25,37c0-2.3,0.7-4.5,1.8-6.4c6.3,7.7,15.6,12.7,26.2,13.3
 													c-0.2-0.9-0.3-1.9-0.3-2.9c0-7,5.7-12.7,12.7-12.7c3.7,0,7,1.5,9.3,4c2.9-0.6,5.6-1.6,8.1-3.1c-1,3-2.8,5.4-5.4,7
 													C79.8,35.9,81.6,35.2,84.6,34.2L84.6,34.2L84.6,34.2z">
-										</path>
-									</svg></a>
-								</div>
-								<div class="soc-icon">
-									<a  href="#"><svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 			width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-											<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="soc-icon">
+                                <a href="#">
+                                    <svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                        <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
 													c-11.3,0-20.4-9.1-20.4-20.4c0-11.3,9.1-20.4,20.4-20.4c5.5,0,10.1,2,13.6,5.3l-5.5,5.3c-1.5-1.5-4.2-3.1-8.1-3.1
 													c-7,0-12.6,5.8-12.6,12.9s5.7,12.6,12.6,12.6c8.1,0,11.1-6,11.6-9H43.6v-7h0.1l-0.1,0.5V50H63c0.2,1,0.3,2.3,0.3,3.6
 													C63.3,65.3,55.5,73.8,43.8,73.8z M87.6,56h-6v6h-6v-6h-6v-6h6v-6h6v6h6V56z">
-											</path>
-									</svg></a>
-								</div>
-								<div class="soc-icon">
-									<a  href=""><svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8"		 width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-											<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="soc-icon">
+                                <a href="">
+                                    <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                        <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
 													c-5.1,0-5.9,3.8-5.9,7.7V72h-10V41h9v5h0.5c1.3-2,4.7-4.8,9.5-4.8c9.9,0,12,6.3,12,14.3L79.6,72L79.6,72z">
-											</path>
-									</svg></a>
-								</div>
-							</div>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse col-sm-7 col-md-8 col-lg-8">
-					          <ul class="nav navbar-nav nav-justified">
-					            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-					            	<ul class="dropdown-menu products-menu">
-					            		<li><a href="#">cloud platform</a></li>
-										<li><a href="#">cloud-in-a-box</a></li>
-					            	</ul>
-					            </li>
-					            <!--<li><a href="#about">Rewards</a></li>-->
-					            <li><a href="#contact">Updates</a></li>
-					            <li class="hidden-lg hidden-xs hidden-md dropdown-more">
-					            		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More...</a>
-					            	<ul class="dropdown-menu support-menu">
-						            	<li><a href="#contact">About Us</a></li>
-						            	<li class="dropdown"><a id="no-hover">Support</a>
-							              	<ul>
-								              	<li><a href="#">Customer support</a></li>
-							                	<li><a href="#">Contact</a></li>
-							              	</ul>
-							            </li>
-						            </ul>
-					            </li>
-					            <li class="hidden-sm"><a href="#contact">About Us</a></li>
-					            <li class="hidden-sm dropdown ">
-					              	<a href="#" class="dropdown-toggle hidden-sm" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support </a>
-					              <ul class="dropdown-menu support-menu">
-					                <li><a href="#">Customer support</a></li>
-					                <li><a href="#">Contact</a></li>
-					              </ul>
-					            </li>
-					          </ul>
-			        	</div>
-
-			        	<div class="social hidden-xs col-sm-3 col-md-2 col-lg-2">
-						  	<div class="soc-icon">
-						  		<a  href="#"><svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 	width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-								<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse col-sm-7 col-md-8 col-lg-8">
+                        <ul class="nav navbar-nav nav-justified">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                                <ul class="dropdown-menu products-menu">
+                                    <li><a href="#">cloud platform</a></li>
+                                    <li><a href="#">cloud-in-a-box</a></li>
+                                </ul>
+                            </li>
+                            <!--<li><a href="#about">Rewards</a></li>-->
+                            <li><a href="#contact">Updates</a></li>
+                            <li class="hidden-lg hidden-xs hidden-md dropdown-more">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More...</a>
+                                <ul class="dropdown-menu support-menu">
+                                    <li><a href="#contact">About Us</a></li>
+                                    <li class="dropdown"><a id="no-hover">Support</a>
+                                        <ul>
+                                            <li><a href="#">Customer support</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hidden-sm"><a href="#contact">About Us</a></li>
+                            <li class="hidden-sm dropdown ">
+                                <a href="#" class="dropdown-toggle hidden-sm" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support </a>
+                                <ul class="dropdown-menu support-menu">
+                                    <li><a href="#">Customer support</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social hidden-xs col-sm-3 col-md-2 col-lg-2">
+                        <div class="modal-window">
+                            <button class="btn btn-success sign-in" data-toggle="modal" type="button" data-target=".bs-sign-in">Sign In</button>
+                            <button class="btn btn-warning register" data-toggle="modal" type="button" data-target=".bs-register">Register</button>
+                        </div>
+                        <div class="soc-icon">
+                            <a href="#">
+                                <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                    <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
 											c-0.9,0-1.5,0.4-1.5,1.2V43H63l-1.6,9h-7.8v26h-10V52h-6v-9h6v-4.8c0-6.1,5.4-11.2,11.5-11.2h7.5V37z">
-									</path>
-								</svg></a>
-							</div>
-							<div class="soc-icon">
-								<a  href="#"><svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 	width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-									<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="soc-icon">
+                            <a href="#">
+                                <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                    <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
 												c-2,2.6-4,4.8-6.5,6.6c0,0.5,0,1.1,0,1.6c0,16.8-12.8,36.1-36.2,36.1c-7.2,0-13.9-2.1-19.5-5.7c1,0.1,2,0.2,3,0.2
 												c6,0,11.4-2,15.8-5.4c-5.5-0.1-10.2-3.8-11.9-8.8c0.8,0.1,1.6,0.2,2.4,0.2c1.2,0,2.1-0.2,3.2-0.4c-5.8-1.2-10.3-6.3-10.3-12.4
 												c0,0,0-0.1,0-0.2c2,0.9,3.8,1.5,5.9,1.6C27.1,45.2,25,41.4,25,37c0-2.3,0.7-4.5,1.8-6.4c6.3,7.7,15.6,12.7,26.2,13.3
 												c-0.2-0.9-0.3-1.9-0.3-2.9c0-7,5.7-12.7,12.7-12.7c3.7,0,7,1.5,9.3,4c2.9-0.6,5.6-1.6,8.1-3.1c-1,3-2.8,5.4-5.4,7
 												C79.8,35.9,81.6,35.2,84.6,34.2L84.6,34.2L84.6,34.2z">
-									</path>
-								</svg></a>
-							</div>
-							<div class="soc-icon">
-								<a  href="#"><svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" 			width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-										<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="soc-icon">
+                            <a href="#">
+                                <svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                    <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
 												c-11.3,0-20.4-9.1-20.4-20.4c0-11.3,9.1-20.4,20.4-20.4c5.5,0,10.1,2,13.6,5.3l-5.5,5.3c-1.5-1.5-4.2-3.1-8.1-3.1
 												c-7,0-12.6,5.8-12.6,12.9s5.7,12.6,12.6,12.6c8.1,0,11.1-6,11.6-9H43.6v-7h0.1l-0.1,0.5V50H63c0.2,1,0.3,2.3,0.3,3.6
 												C63.3,65.3,55.5,73.8,43.8,73.8z M87.6,56h-6v6h-6v-6h-6v-6h6v-6h6v6h6V56z">
-										</path>
-								</svg></a>
-							</div>
-							<div class="soc-icon">
-								<a  href=""><svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8"		 width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-										<path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="soc-icon">
+                            <a href="">
+                                <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                    <path fill="#3B9BD8" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
 												c-5.1,0-5.9,3.8-5.9,7.7V72h-10V41h9v5h0.5c1.3-2,4.7-4.8,9.5-4.8c9.9,0,12,6.3,12,14.3L79.6,72L79.6,72z">
-										</path>
-								</svg></a>
-							</div>
-						</div>
-			        </div>
-		        </div>
-		      
-		       <!--/.nav-collapse -->
-	      	</div>
-	      </div>
-	    </nav>
-	    <div id="scroll-top" class="in">
-			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-				<path d="M32,0C14.327,0,0,14.327,0,32c0,17.673,14.327,32,32,32c17.673,0,32-14.327,32-32C64,14.327,49.673,0,32,0z M52.37,38.972c-0.586,0.585-1.354,0.878-2.122,0.878c-0.769,0-1.536-0.293-2.121-0.878L31.925,22.768L16.37,38.32h0.002c-1.173,1.171-3.073,1.171-4.244,0c-1.173-1.173-1.173-3.073,0-4.244l17.673-17.673c1.173-1.173,3.071-1.173,4.244,0l18.327,18.327C53.543,35.9,53.543,37.801,52.37,38.972z"></path>
-			</svg>
-		</div>
-			<div id="background">
-				<div class="container1">
-					<div id="cloud">
-					<ol class="carousel-indicators">
-						<li class="active"></li>
-						<li></li>
-						<li></li>
-					</ol>
-						<div class="carousel-inner">
-							<div class="cloud row first-cloud active-cloud">
-								<div class="col-sm-5 col-md-5">
-									<div id="rotating-arrows">
-										<img class="hidden-xs" width="100%" height="auto" src="images/cloudinabox.svg"/>
-									</div>
-								</div>
-								<div class="col-sm-7 col-md-7">
-									<div class="cloud-text">
-										<h1>YOU HANDLE THE CABLES. <br class="hidden-sm">WE’VE HANDLED EVERYTHING ELSE.</h1>
-										<p class="hidden-xs">Preconfigured Redundant Cloud Infrastructure <br> in Just 2U Form Factor!</p>
-										<!-- <ul class="hidden-xs">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        </div>
+    </nav>
+    <div id="scroll-top" class="in">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+            <path d="M32,0C14.327,0,0,14.327,0,32c0,17.673,14.327,32,32,32c17.673,0,32-14.327,32-32C64,14.327,49.673,0,32,0z M52.37,38.972c-0.586,0.585-1.354,0.878-2.122,0.878c-0.769,0-1.536-0.293-2.121-0.878L31.925,22.768L16.37,38.32h0.002c-1.173,1.171-3.073,1.171-4.244,0c-1.173-1.173-1.173-3.073,0-4.244l17.673-17.673c1.173-1.173,3.071-1.173,4.244,0l18.327,18.327C53.543,35.9,53.543,37.801,52.37,38.972z"></path>
+        </svg>
+    </div>
+    <div id="background">
+        <div class="container1">
+            <div id="cloud">
+                <ol class="carousel-indicators">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="cloud row first-cloud active-cloud">
+                        <div class="col-sm-5 col-md-5">
+                            <div id="rotating-arrows">
+                                <img class="hidden-xs" width="100%" height="auto" src="images/cloudinabox.svg" />
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-md-7">
+                            <div class="cloud-text">
+                                <h1>YOU HANDLE THE CABLES. <br class="hidden-sm">WE’VE HANDLED EVERYTHING ELSE.</h1>
+                                <p class="hidden-xs">Preconfigured Redundant Cloud Infrastructure
+                                    <br> in Just 2U Form Factor!</p>
+                                <!-- <ul class="hidden-xs">
 											<li> Minimize Capital Expenditure</li>
 											<li>Create Space and Improve Rack Efficiency </li>
 											<li>Competitive Pricing Evaluation on Most Hardware</li>
 											<li>Feel Good Knowing You’ve Recycled Responsibly</li>
 										</ul> -->
-										<button>learn more</button>
-									</div>
-								</div>
-							</div>
-							<div class="cloud row second-cloud">
-								<!-- <div class="col-sm-5 col-md-5">
+                                <button>learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cloud row second-cloud">
+                        <!-- <div class="col-sm-5 col-md-5">
 									<div id="rotating-arrows">
 										<img class="hidden-xs" width="100%" height="auto" src="images/rotating-arrows.svg"/>
 									</div>
 								</div> -->
-								<div class="col-sm-10 col-md-10">
-									<div class="cloud-text">
-										<h1>DEPLOY CLOUD RESOURCES</h1>
-										<p class="hidden-xs">
-									We are currently building our own Cloud Infrastructure and can't wait to show you. In the meantime, see what technologies SkySilk engineers are using to build our custom infrastructure.
-										</p>
-										<!-- <ul class="hidden-xs">
+                        <div class="col-sm-10 col-md-10">
+                            <div class="cloud-text">
+                                <h1>DEPLOY CLOUD RESOURCES</h1>
+                                <p class="hidden-xs">
+                                    We are currently building our own Cloud Infrastructure and can't wait to show you. In the meantime, see what technologies SkySilk engineers are using to build our custom infrastructure.
+                                </p>
+                                <!-- <ul class="hidden-xs">
 											<li> Minimize Capital Expenditure</li>
 											<li>Create Space and Improve Rack Efficiency </li>
 											<li>Competitive Pricing Evaluation on Most Hardware</li>
 											<li>Feel Good Knowing You’ve Recycled Responsibly</li>
 										</ul> -->
-										<div class="btn-wrap"><button>learn more</button></div>
-									</div>
-								</div>
-							</div>
-							<div class="cloud row">
-								<div class="col-sm-5 col-md-5">
-									<div id="rotating-arrows">
-										<img class="hidden-xs" width="100%" height="auto" src="images/rotating-arrows.svg"/>
-									</div>
-								</div>
-								<div class="col-sm-7 col-md-7">
-									<div class="cloud-text">
-										<h1>SKYSILK HARDWARE <br class="hidden-sm hidden-xs">TRADE-IN</h1>
-										<p class="hidden-xs">Upgrading to SkySilk Cloud-In-A-Box? <br> We'll take your old gear!</p>
-										<ul class="hidden-xs">
-											<li> Minimize Capital Expenditure</li>
-											<li>Create Space and Improve Rack Efficiency </li>
-											<li>Competitive Pricing Evaluation on Most Hardware</li>
-											<li>Feel Good Knowing You’ve Recycled Responsibly</li>
-										</ul>
-										<button>Contact Us</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<a href="#" class="arrow-left hidden-xs"><svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-							<path d="M0,32c0,17.673,14.326,32,32,32c17.672,0,32-14.327,32-32S49.672,0,32,0C14.327,0,0,14.327,0,32z M38.971,11.63c0.585,0.586,0.878,1.354,0.878,2.122c0,0.769-0.293,1.536-0.878,2.121L22.768,32.075L38.32,47.63v-0.002c1.171,1.173,1.171,3.073,0,4.243c-1.173,1.173-3.073,1.173-4.244,0L16.402,34.198c-1.172-1.173-1.172-3.071,0-4.244l18.327-18.327C35.9,10.457,37.8,10.457,38.971,11.63z"></path>
-						</svg></a>
-						<a href="#" class="arrow-right hidden-xs"><svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-							<path d="M64,32C64,14.327,49.674,0,32,0C14.327,0,0,14.327,0,32c0,17.673,14.327,32,32,32S64,49.673,64,32z M25.028,52.37c-0.585-0.586-0.878-1.354-0.878-2.122c0-0.769,0.293-1.536,0.878-2.121l16.204-16.202L25.68,16.37v0.002c-1.171-1.173-1.171-3.073,0-4.244c1.173-1.173,3.073-1.173,4.244,0l17.674,17.673c1.172,1.173,1.172,3.071,0,4.244L29.271,52.373C28.1,53.543,26.199,53.543,25.028,52.37z"></path>
-						</svg></a>
-					</div>
-				</div>
-				<div id="arrow-box">
-					<div class="arrow-inner">
-						<div class="arrow-down"></div>	
-					</div>
-				</div>	
-			</div>
-
-			<!-- WHY SKYSILK BLOCK -->
-
-			<section id="why-skysilk">
-				<h1>why skysilk&#063;</h1>
-				<svg version="1.1" id="polyline-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="60px">
-				<path class="path" fill="none" stroke="#6FAAD1" d="M 0 0 L 311 45.497 L 553.5 27.497 L 796 43.497 L 1038.5 27.497 L 1366 57.497" style="stroke-dasharray: 1372.4, 1372.4; stroke-dashoffset: 0; transition: stroke-dashoffset 3s ease-in-out;">
-					
-				</path>
-
-				<circle cx="311" cy="45.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle1"></circle>
-				<circle cx="553.5" cy="27.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle2"></circle>
-				<circle cx="796" cy="43.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle3"></circle>
-				<circle cx="1038.5" cy="27.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle4"></circle>
-			</svg>
-				<div id="skysilk-list">
-					<ul>
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 simple">
-									<li id="simple">Simple</li>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 cost">
-									<li id="s1">Cost Effective</li>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 innovative">
-									<li id="s2">Innovative</li>
-								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 all-in">
-									<li id="s3">All-In-One Solutions</li>
-								</div>
-							</div>
-						</div>
-					</ul>
-				</div>
-			</section>
-
-
-			<!-- WHAT IS SKYSILK BLOCK -->
-
-
-			<section id="what-is-skysilk">
-				<div class="container1">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4 col-md-4">
-								<div class="img-logo" >
-									<img class="img-responsive" src="images/what-is-cloud-in-a-box.svg">
-								</div>
-							</div>
-							<div class="col-sm-8 col-md-8">
-								<div class="text">
-									<h1>what is skysilk cloud-in-a-box&#063;</h1>
-									<p>SkySilk Cloud-In-A-Box is a comprehensive all-in-one cloud solution perfect for any modern business that aims to simplify virtualization and cloud deployment.
-				We utilize a combination of state of the art internal technology, backed by trusted external sources to help architect our own cloud environment. Now you can too.</p>
-									<button>read more</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="call-to-action">
-					<div id="container2" class="container1">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-4 col-md-3 relative img-col">
-									<div id="img-logo" class="img-logo ">
-										<img style="width: 200px;height: auto;" class="cloudinabox-glow" src="images/cloudinabox-glow-uncut.svg" alt="Cloud In A Box">
-									</div>
-								</div>
-								<div class="col-sm-8 col-md-9">
-									<div id="text" class="blue-text text ">
-										<h1>deploy your own <br class="hidden-md" > with skysilk cloud-in-a-box</h1>
-										<p id="invisible">powered by SkySilk Inc.</p>
-										<button id="btn">learn more</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-			</section>
-
-
-			<!--===== FOOTER BLOCK==== -->
-
-			
-			<footer>
-				<div id="ft-container">
-					<div id="footer-content">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-3 col-xxs-4 col-lg-4">
-								<div id="left-block" class="left">
-										<ul class="left">
-											<li class="font-weight"><a href="#" class="hidden-lg hidden-sm hidden-md ">PRODUCTS</a></li>
-											<li class="font-weight hidden-xs">PRODUCTS</li>
-											<a href="#"><li class=" hidden-xs">Cloud Platform</li></a>
-											<a href="#"><li class=" hidden-xs">Cloud-In-A-Box</li></a>
-										</ul>
-								</div>
-							</div>
-								<div class="col-sm-3 col-xxs-4 col-lg-4">
-									<ul class="right right-right">
-										<li class="font-weight support "><a href=# class="hidden-lg support hidden-sm hidden-md ">SUPPORT</a></li>
-										<li class="font-weight hidden-xs">SUPPORT</li>
-										<a href="#"><li class="hidden-xs">Customer Support</li></a>
-										<a href="#"><li class="hidden-xs">Contact Us</li></a>
-										<a href="#"><li class="hidden-xs">About Us</li></a>
-										<a href="#"><li class="hidden-xs">Blog</li></a>
-									</ul>
-								</div>
-								<div class="col-sm-2 col-xxs-4 hidden-lg"></div>
-								<div class="col-sm-4 col-xxs-12 col-lg-4">
-									<div id="right-block" class="right">
-										<div id="icons">
-											<div class="row">
-												<div class="col-xxs-3 social-col"><a href="#"><svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/	svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-																	<path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
+                                <div class="btn-wrap">
+                                    <button>learn more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cloud row">
+                        <div class="col-sm-5 col-md-5">
+                            <div id="rotating-arrows">
+                                <img class="hidden-xs" width="100%" height="auto" src="images/rotating-arrows.svg" />
+                            </div>
+                        </div>
+                        <div class="col-sm-7 col-md-7">
+                            <div class="cloud-text">
+                                <h1>SKYSILK HARDWARE <br class="hidden-sm hidden-xs">TRADE-IN</h1>
+                                <p class="hidden-xs">Upgrading to SkySilk Cloud-In-A-Box?
+                                    <br> We'll take your old gear!</p>
+                                <ul class="hidden-xs">
+                                    <li> Minimize Capital Expenditure</li>
+                                    <li>Create Space and Improve Rack Efficiency </li>
+                                    <li>Competitive Pricing Evaluation on Most Hardware</li>
+                                    <li>Feel Good Knowing You’ve Recycled Responsibly</li>
+                                </ul>
+                                <button>Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="arrow-left hidden-xs">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <path d="M0,32c0,17.673,14.326,32,32,32c17.672,0,32-14.327,32-32S49.672,0,32,0C14.327,0,0,14.327,0,32z M38.971,11.63c0.585,0.586,0.878,1.354,0.878,2.122c0,0.769-0.293,1.536-0.878,2.121L22.768,32.075L38.32,47.63v-0.002c1.171,1.173,1.171,3.073,0,4.243c-1.173,1.173-3.073,1.173-4.244,0L16.402,34.198c-1.172-1.173-1.172-3.071,0-4.244l18.327-18.327C35.9,10.457,37.8,10.457,38.971,11.63z"></path>
+                    </svg>
+                </a>
+                <a href="#" class="arrow-right hidden-xs">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <path d="M64,32C64,14.327,49.674,0,32,0C14.327,0,0,14.327,0,32c0,17.673,14.327,32,32,32S64,49.673,64,32z M25.028,52.37c-0.585-0.586-0.878-1.354-0.878-2.122c0-0.769,0.293-1.536,0.878-2.121l16.204-16.202L25.68,16.37v0.002c-1.171-1.173-1.171-3.073,0-4.244c1.173-1.173,3.073-1.173,4.244,0l17.674,17.673c1.172,1.173,1.172,3.071,0,4.244L29.271,52.373C28.1,53.543,26.199,53.543,25.028,52.37z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div id="arrow-box">
+            <div class="arrow-inner">
+                <div class="arrow-down"></div>
+            </div>
+        </div>
+    </div>
+    <!-- WHY SKYSILK BLOCK -->
+    <section id="why-skysilk">
+        <h1>why skysilk&#063;</h1>
+        <svg version="1.1" id="polyline-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="60px">
+            <path class="path" fill="none" stroke="#6FAAD1" d="M 0 0 L 311 45.497 L 553.5 27.497 L 796 43.497 L 1038.5 27.497 L 1366 57.497">
+            </path>
+            <circle cx="311" cy="45.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle1"></circle>
+            <circle cx="553.5" cy="27.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle2"></circle>
+            <circle cx="796" cy="43.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle3"></circle>
+            <circle cx="1038.5" cy="27.497" r="6" stroke="white" stroke-width="2" fill="#399BDA" class="circle4"></circle>
+        </svg>
+        <div id="skysilk-list">
+            <ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 simple">
+                            <li id="simple">Simple</li>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 cost">
+                            <li id="s1">Cost Effective</li>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 innovative">
+                            <li id="s2">Innovative</li>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xxs-3 all-in">
+                            <li id="s3">All-In-One Solutions</li>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <!-- WHAT IS SKYSILK BLOCK -->
+    <section id="what-is-skysilk">
+        <div class="container1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="img-logo">
+                            <img class="img-responsive" src="images/what-is-cloud-in-a-box.svg">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="text">
+                            <h1>what is skysilk cloud-in-a-box&#063;</h1>
+                            <p>SkySilk Cloud-In-A-Box is a comprehensive all-in-one cloud solution perfect for any modern business that aims to simplify virtualization and cloud deployment. We utilize a combination of state of the art internal technology, backed by trusted external sources to help architect our own cloud environment. Now you can too.</p>
+                            <button>read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="call-to-action">
+        <div id="container2" class="container1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 relative img-col">
+                        <div id="img-logo" class="img-logo ">
+                            <img style="width: 200px;height: auto;" class="cloudinabox-glow" src="images/cloudinabox-glow-uncut.svg" alt="Cloud In A Box">
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-9">
+                        <div id="text" class="blue-text text ">
+                            <h1>deploy your own <br class="hidden-md" > with skysilk cloud-in-a-box</h1>
+                            <p id="invisible">powered by SkySilk Inc.</p>
+                            <button id="btn">learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===== FOOTER BLOCK==== -->
+    <footer>
+        <div id="ft-container">
+            <div id="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xxs-4 col-lg-4">
+                            <div id="left-block" class="left">
+                                <ul class="left">
+                                    <li class="font-weight"><a href="#" class="hidden-lg hidden-sm hidden-md ">PRODUCTS</a></li>
+                                    <li class="font-weight hidden-xs">PRODUCTS</li>
+                                    <a href="#">
+                                        <li class=" hidden-xs">Cloud Platform</li>
+                                    </a>
+                                    <a href="#">
+                                        <li class=" hidden-xs">Cloud-In-A-Box</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xxs-4 col-lg-4">
+                            <ul class="right right-right">
+                                <li class="font-weight support "><a href=# class="hidden-lg support hidden-sm hidden-md ">SUPPORT</a></li>
+                                <li class="font-weight hidden-xs">SUPPORT</li>
+                                <a href="#">
+                                    <li class="hidden-xs">Customer Support</li>
+                                </a>
+                                <a href="#">
+                                    <li class="hidden-xs">Contact Us</li>
+                                </a>
+                                <a href="#">
+                                    <li class="hidden-xs">About Us</li>
+                                </a>
+                                <a href="#">
+                                    <li class="hidden-xs">Blog</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 col-xxs-4 hidden-lg"></div>
+                        <div class="col-sm-4 col-xxs-12 col-lg-4">
+                            <div id="right-block" class="right">
+                                <div id="icons">
+                                    <div class="row">
+                                        <div class="col-xxs-3 social-col">
+                                            <a href="#">
+                                                <svg version="1.1" id="facebook" xmlns="http://www.w3.org/2000/	svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                                    <path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M62.6,37h-7.5
 																	c-0.9,0-1.5,0.4-1.5,1.2V43H63l-1.6,9h-7.8v26h-10V52h-6v-9h6v-4.8c0-6.1,5.4-11.2,11.5-11.2h7.5V37z"></path>
-														</svg></a>
-												</div>
-												<div class="col-xxs-3 social-col"><a href="#"><svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-															<path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="col-xxs-3 social-col">
+                                            <a href="#">
+                                                <svg version="1.1" id="twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                                    <path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M84.6,34.2
 															c-2,2.6-4,4.8-6.5,6.6c0,0.5,0,1.1,0,1.6c0,16.8-12.8,36.1-36.2,36.1c-7.2,0-13.9-2.1-19.5-5.7c1,0.1,2,0.2,3,0.2
 															c6,0,11.4-2,15.8-5.4c-5.5-0.1-10.2-3.8-11.9-8.8c0.8,0.1,1.6,0.2,2.4,0.2c1.2,0,2.1-0.2,3.2-0.4c-5.8-1.2-10.3-6.3-10.3-12.4
 															c0,0,0-0.1,0-0.2c2,0.9,3.8,1.5,5.9,1.6C27.1,45.2,25,41.4,25,37c0-2.3,0.7-4.5,1.8-6.4c6.3,7.7,15.6,12.7,26.2,13.3
 															c-0.2-0.9-0.3-1.9-0.3-2.9c0-7,5.7-12.7,12.7-12.7c3.7,0,7,1.5,9.3,4c2.9-0.6,5.6-1.6,8.1-3.1c-1,3-2.8,5.4-5.4,7
 															C79.8,35.9,81.6,35.2,84.6,34.2L84.6,34.2L84.6,34.2z"></path>
-														</svg></a>
-												</div>
-												<div class="col-xxs-3 social-col"><a href="#"><svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-															<path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="col-xxs-3 social-col">
+                                            <a href="#">
+                                                <svg version="1.1" id="google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                                    <path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M43.8,73.8
 															c-11.3,0-20.4-9.1-20.4-20.4c0-11.3,9.1-20.4,20.4-20.4c5.5,0,10.1,2,13.6,5.3l-5.5,5.3c-1.5-1.5-4.2-3.1-8.1-3.1
 															c-7,0-12.6,5.8-12.6,12.9s5.7,12.6,12.6,12.6c8.1,0,11.1-6,11.6-9H43.6v-7h0.1l-0.1,0.5V50H63c0.2,1,0.3,2.3,0.3,3.6
 															C63.3,65.3,55.5,73.8,43.8,73.8z M87.6,56h-6v6h-6v-6h-6v-6h6v-6h6v6h6V56z"></path>
-														</svg></a>
-												</div>
-												<div class="col-xxs-3 social-col"><a href="#"><svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
-															<path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="col-xxs-3 social-col">
+                                            <a href="#">
+                                                <svg version="1.1" id="linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.8 106.8" width="28px" height="28px" style="enable-background:new 0 0 106.8 106.8;" xml:space="preserve">
+                                                    <path fill="#FFFFFF" d="M53.4,0C23.9,0,0,23.9,0,53.4s23.9,53.4,53.4,53.4s53.4-23.9,53.4-53.4S82.9,0,53.4,0z M41.6,72h-10V41h10V72z M36.7,37.9c-2.8,0-5.1-2.3-5.1-5.1s2.3-5.1,5.1-5.1s5.1,2.3,5.1,5.1S39.5,37.9,36.7,37.9z M79.6,72h-10V57.4c0-3.5-0.1-7.9-5.1-7.9
 															c-5.1,0-5.9,3.8-5.9,7.7V72h-10V41h9v5h0.5c1.3-2,4.7-4.8,9.5-4.8c9.9,0,12,6.3,12,14.3L79.6,72L79.6,72z"></path>
-														</svg></a>
-												</div>
-											</div>
-										</div>
-										<div class="row copyright-xs">
-											<div class="col-xxs-6">&copy; 2016 Skysilk, Inc.
-											</div>
-											<div class="col-xxs-6 text-right"><a href="#">Terms, 	Privacy &amp; Copyright</a>
-											</div>
-										</div>
-									</div>
-								</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row copyright-xs hidden-xs">
+                                    <div class="col-xxs-6">&copy; 2016 Skysilk, Inc.
+                                    </div>
+                                    <div class="col-xxs-6 text-right"><a href="#">Terms, 	Privacy &amp; Copyright</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright-xs hidden-md hidden-lg hidden-sm">
+                <div class="col-xxs-6">&copy; 2016 Skysilk, Inc.
+                </div>
+                <div class="col-xxs-6 text-right"><a href="#">Terms, 	Privacy &amp; Copyright</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade bs-sign-in" id="sign-in-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">Sign In</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm">
+                        <div class="form-group has-feedback email">
+                            <label for="recipient-name" class="control-label">Email</label>
+                            <div class="input-group email-parent">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Type here your email..." required="required" data-validation-email-message="Please, type your email" data-toggle="tooltip" data-placement="top" data-original-title="Type here your email">
+                            </div>
+                            <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                        <div class="form-group has-feedback password">
+                            <label for="message-text" class="control-label">Password</label>
+                            <div class="input-group password-parent">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-option-horizontal"></i></span>
+                                <input type="password" class="form-control" id="password" placeholder="Type here your password..." required="required" data-validation-required-message="Please, type your password" data-toggle="tooltip" data-placement="top" data-original-title="Type here your password">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="close-btn" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" id="save" class="btn btn-primary submit">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-register" id="register-id" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Register</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="contactForm">
+                        <div class="form-group has-feedback">
+                            <label for="recipient-name" class="control-label">Email</label>
+                            <div class="input-group email-parent">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Type here your email..." required="required" data-toggle="tooltip" data-placement="top" data-original-title="Type here your email">
+                            </div>
+                        </div>
+                        <div class="form-group has-feedback password">
+                            <label for="message-text" class="control-label">Password</label>
+                            <div class="input-group password-parent">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-option-horizontal"></i></span>
+                                <input type="password" class="form-control" id="password" placeholder="Type here your password..." required="required" data-validation-required-message="Please, type your password" data-toggle="tooltip" data-placement="top" data-original-title="Type here your password">
+                            </div>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label for="recipient-password" class="control-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-option-horizontal"></i></span>
+                                <input type="password" class="form-control" id="password" placeholder="Type here your password..." required="required" data-validation-required-message="Please, type your password" data-toggle="tooltip" data-placement="top" data-original-title="Type here your password">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="close-btn" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" id="save" class="btn btn-primary submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jscript.js"></script>
+    <script src="js/modals.js"></script>
+</body>
 
-			<script src="js/jquery.js" ></script>
-			<script src="js/bootstrap.js" ></script>
-			<script src="js/jscript.js"></script>
-	</body>
 </html>
